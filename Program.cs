@@ -24,7 +24,6 @@ namespace CodeWars
             var digits = new int[array.Length];
             for (var i = 0; i < digits.Length; i++)
                 digits[i] = array[i] % 10;
-
             double pow = digits[0];
             // TODO: дожна работать с последнего числа
             for (var i = 0; i < digits.Length - 1; i++)
