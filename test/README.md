@@ -1,2 +1,0 @@
-# CodeWars
-my CodeWars katas
