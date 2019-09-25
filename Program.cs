@@ -55,7 +55,8 @@ namespace CodeWars
                 bigInt[i] = (BigInteger)array[i];
 
             // считаем степени
-            BigInteger pow = bigInt.Length - 1;
+            BigInteger pow = bigInt[bigInt.Length - 1];
+            // TODO: не работает кейс 12 30 21
             for (var i = bigInt.Length - 2; i >= 0; i--)
                 pow = BigInteger.ModPow(bigInt[i], pow, 100);
 
